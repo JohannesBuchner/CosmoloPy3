@@ -37,7 +37,7 @@ def set_omega_k_0(cosmo):
     """Returns the cosmo dictionary with omega_k_0 set.
     See get_omega_k_0.
     
-    Note that cosmo is not passed as \*\*cosmo for once. This function
+    Note that cosmo is not passed as \\*\\*cosmo for once. This function
     modifies the dictionary in place and returns the result.
 
     """
