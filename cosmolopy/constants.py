@@ -84,6 +84,7 @@ sigma_T_cm = 6.6524586e-25 # cm^2
 doc += "  sigma_T_cm: Thomson cross section in Mpc^2\n"
 sigma_T_Mpc = sigma_T_cm / (Mpc_cm ** 2.) # Mpc^2 
 
-__doc__ += "\n".join(sorted(doc.split("\n")))
+if __doc__ is not None:
+    __doc__ += "\n".join(sorted(doc.split("\n")))
 
 
